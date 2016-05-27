@@ -251,7 +251,8 @@ Router.route('pdf', {
       marginLeft: 0,
       noOutline: true,
       dpi: dpi,
-      zoom: 1
+      zoom: 1,
+      javascriptDelay: 5000
       // disableSmartShrinking: true, // as per https://github.com/wkhtmltopdf/qt/pull/12#issuecomment-66429764
       // zoom: 0.78125
     };
