@@ -3,7 +3,7 @@
   "CUSTOM": false,
 
   "prefix": "ct-",
-  "monthsAbr": ["Jan.", "Feb.", "Mar.", "Apr.", "May", "June", "July", "Aug.", "Sept.", "Oct.", "Nov.", "Dec.", "Jan."],
+  "monthsAbr": ["Jan.", "Feb.", "Mar.", "Apr.", "Maj", "Juni", "Juli", "Aug.", "Sept.", "Okt.", "Nov.", "Dec.", "Jan."],
 
   "debounce": 500,
   "tipTimeout": 5000,
@@ -95,8 +95,8 @@
   },
 
   "source": {
-    "prefix": "CHART TOOL",
-    "suffix": " » SOURCE:"
+    "prefix": "INFORMATION.DK",
+    "suffix": " » KILDE:"
   },
 
   "social": {
