@@ -131,7 +131,7 @@ app_settings = {
 
   print: {
     gutter_width: 4,
-    column_width: 47,
+    column_width: 50,
     first_line_depth: 2.14,
     line_depth: 3.35,
     dpi: 266, // this actually doesn't matter for PDFs, but good to make note
