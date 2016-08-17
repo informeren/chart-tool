@@ -166,6 +166,10 @@ body {
     fill: $black;
   }
 
+  .#{$prefix}tip {
+    display: none;
+  }
+
   .#{$prefix}series_group .#{$prefix}line, .#{$prefix}series_group .#{$prefix}line.#{$prefix}line-1 {
     stroke-width: $one-pt !important;
   }
