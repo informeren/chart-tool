@@ -244,7 +244,7 @@ Router.route('pdf', {
 
     var options = {
       pageWidth: width.toFixed(2) + "mm",
-      pageHeight: height.toFixed(2) + "mm",
+      pageHeight: (+height.toFixed(2) + 2) + "mm",
       marginTop: 0,
       marginRight: 0,
       marginBottom: 0,
