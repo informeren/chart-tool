@@ -6,6 +6,8 @@
 //   stroke-width: 1px;
 // }
 
+@import "fonts-print";
+
 @function ptToPx($pt) {
   $magic: 1.30522;
   $val: ($pt * $magic) * 1px;
@@ -21,7 +23,19 @@ $six-five-pt: 8px; // actually renders at 6.15pt
 $eight-pt: 10px; // actually renders at 7.69pt
 $nine-pt: 12.0px; // actually renders at 9.22pt
 
-// base64 fonts go here
+@mixin inf-heading-font {
+  font-family: "igrotesk";
+  font-weight: 500;
+}
+
+@mixin inf-utility-font {
+  font-family: "igrotesk";
+  font-weight: 100;
+}
+
+body {
+  margin-bottom: 0;
+}
 
 .chart-pdf,
 .print-export-preview-chart,
