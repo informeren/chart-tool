@@ -52,7 +52,7 @@ function socialComponent(node, obj) {
 	var chartSocialBtn = chartMeta
 		.append('div')
 		.attr('class', obj.prefix + 'chart_meta_btn')
-		.html('share');
+		.html('del');
 
 	var chartSocial = chartContainer
 		.append('div')
@@ -69,7 +69,7 @@ function socialComponent(node, obj) {
 
 	chartSocialOptions
 		.append('h3')
-		.html('Share this chart:');
+		.html('Del graf:');
 
 	chartSocialBtn.on('click', function() {
 		chartSocial.classed(obj.prefix + 'active', true);
